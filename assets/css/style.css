@@ -25,7 +25,9 @@ body {
   font-weight: normal;
   font-style: normal;
   color: #121212; }
-
+body::-webkit-scrollbar{
+  display: none;
+}
 * {
   margin: 0;
   padding: 0;
@@ -2546,7 +2548,7 @@ p {
   .single-features .features-title-icon .features-title a {
     font-size: 21px;
     line-height: 25px;
-    color: #121212;
+    color: #F7B036;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -2566,13 +2568,13 @@ p {
         font-size: 36px;
         line-height: 45px; } }
     .single-features .features-title-icon .features-title a:hover {
-      color: rgb(62,34,133); }
+      color: #F7B036; }
   .single-features .features-title-icon .features-icon {
     position: relative;
     display: inline-block; }
     .single-features .features-title-icon .features-icon i {
       font-size: 40px;
-      color: rgb(62,34,133);
+      color: #FFE08D;
       position: relative;
       z-index: 5; }
     .single-features .features-title-icon .features-icon .shape {
@@ -2582,7 +2584,7 @@ p {
   .single-features .features-content .text {
     font-size: 14px;
     line-height: 20px;
-    color: #121212;
+    color: #FFE08D;
     margin-top: 16px; }
   .single-features .features-content .features-btn {
     color: rgb(62,34,133);
@@ -3265,8 +3267,9 @@ p.form-message.success, p.form-message.error {
   content:'';
   position:absolute;
   left:50%;
+  top: 1%;
   width:2px;
-  height:100%;
+  height:90%;
   background:#a7a7a7;
 }
 .timeline ul{
@@ -3376,6 +3379,7 @@ p.form-message.success, p.form-message.error {
   }
   .timeline:before{
     left:20px;
+    top: -2%;
     height:100%;
   }
   .timeline ul li:nth-child(odd),
@@ -3504,4 +3508,32 @@ p.form-message.success, p.form-message.error {
 
 .basic-3 p {
 	text-align: center;
+}
+
+.features-area{
+  background-color: #131349;
+}
+
+#heading{
+ color: #F7B036;
+}
+
+#des{
+  color: #FFE08D;
+}
+#card-m{
+  background-color: #3a246c;
+text-align: center;
+}
+
+.features-area-none{
+  background-color: #19196a;
+}
+
+.single-features{
+  background-color: #131349;
+}
+
+.features-area-none-d{
+  background-color: #0b0b32;
 }
