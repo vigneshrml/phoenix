@@ -2548,7 +2548,7 @@ p {
   .single-features .features-title-icon .features-title a {
     font-size: 21px;
     line-height: 25px;
-    color: #F7B036;
+    color: #ffffff;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -2568,13 +2568,13 @@ p {
         font-size: 36px;
         line-height: 45px; } }
     .single-features .features-title-icon .features-title a:hover {
-      color: #F7B036; }
+      color: #ffffff; }
   .single-features .features-title-icon .features-icon {
     position: relative;
     display: inline-block; }
     .single-features .features-title-icon .features-icon i {
       font-size: 40px;
-      color: #FFE08D;
+      color: #ffffff;
       position: relative;
       z-index: 5; }
     .single-features .features-title-icon .features-icon .shape {
@@ -2584,7 +2584,7 @@ p {
   .single-features .features-content .text {
     font-size: 14px;
     line-height: 20px;
-    color: #FFE08D;
+    color: #ffffff;
     margin-top: 16px; }
   .single-features .features-content .features-btn {
     color: rgb(62,34,133);
