@@ -2784,8 +2784,8 @@ p {
        15.ABOUT css 
 ===========================*/
 .about-area {
-  padding-top: 80px;
-  padding-bottom: 130px;
+  padding-top: 50px;
+  padding-bottom: 70px;
   position: relative; }
   .about-area .about-title .sub-title {
     font-size: 18px;
@@ -2803,7 +2803,7 @@ p {
         font-size: 26px; } }
     @media (max-width: 767px) {
       .about-area .about-title .title {
-        font-size: 22px; } }
+        font-size: 28px; } }
   .about-area .about-accordion .accordion .card {
     border: 0;
     background: none; }
@@ -2850,8 +2850,8 @@ p {
 ===========================*/
 /*===== TESTIMONIAL STYLE THREE =====*/
 .testimonial-area {
-  padding-top: 80px;
-  padding-bottom: 130px;
+  padding-top: 70px;
+  padding-bottom: 50px;
   background-color: #f4f6f7; }
   .testimonial-area .testimonial-left-content .sub-title {
     font-size: 18px;
@@ -3112,8 +3112,8 @@ p {
       19.CONTACT css 
 ===========================*/
 .contact-area {
-  padding-top: 120px;
-  padding-bottom: 130px;
+  padding-top: 90px;
+  padding-bottom: 100px;
   background-color: #f4f6f7; }
 
 p.form-message.success, p.form-message.error {
@@ -3142,9 +3142,10 @@ p.form-message.success, p.form-message.error {
   color: #fff;
   border-radius: 50%; }
 .contact-info .single-contact-info .contact-info-content {
-  padding-left: 20px; }
+  padding-left: 20px;
+color: #fff; }
   .contact-info .single-contact-info .contact-info-content .text {
-    color: #121212; }
+    color: #f5f5f5; }
 .contact-info .single-contact-info.contact-color-1 .contact-info-icon i {
   background-color: #121212; }
 .contact-info .single-contact-info.contact-color-2 .contact-info-icon i {
@@ -3171,8 +3172,8 @@ p.form-message.success, p.form-message.error {
 /*===== FOOTER FIVE =====*/
 .footer-area {
   background-color: #f4f6f7;
-  padding-top: 90px;
-  padding-bottom: 120px; }
+  padding-top: 40px;
+  padding-bottom: 60px; }
   .footer-area .social li {
     display: inline-block;
     margin: 0 5px; }
@@ -3217,7 +3218,7 @@ p.form-message.success, p.form-message.error {
   .footer-area .copyright .text {
     color: #121212; }
   .footer-area.footer-dark {
-    background-color: #121212; }
+    background-color: #131349; }
     .footer-area.footer-dark .social li a {
       color: #fff; }
     .footer-area.footer-dark .footer-support {
@@ -3527,7 +3528,7 @@ text-align: center;
 }
 
 .features-area-none{
-  background-color: #19196a;
+  background-color: #0e0e46;
 }
 
 .single-features{
@@ -3535,5 +3536,31 @@ text-align: center;
 }
 
 .features-area-none-d{
-  background-color: #0b0b32;
+  background-color: #161657;
+}
+
+
+#headingOne,#headingTwo,#headingThree,#headingFour,#headingFive,
+#headingSix,#headingseven,#headingEight,#headingNine,#headingTen{
+  background-color: #343468;
+  padding: 15px;
+  margin:10px;
+  border-radius: 4px;
+}
+
+.about-area{
+  background-color: #17175E;
+}
+
+#headingOne a,#headingTwo a,#headingThree a,#headingFour a,#headingFive a,
+#headingSix a,#headingseven a,#headingEight a,#headingNine a,#headingTen a{
+  color: #f9f9f9;
+  
+}
+.crm{
+  color: rgb(210, 210, 210);
+  padding: 10px;
+  background-color: #252563;
+  margin-bottom:10px;
+  margin-top:-10px;
 }
